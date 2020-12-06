@@ -73,6 +73,12 @@ ul li{
     margin: 15px 0 0 0;
 }
 
+@media only screen and (max-width: 991px){
+    .navbar-nav .nav-link{
+        padding-left: 20px;
+    }
+}
+
 /* medium screens */
 @media only screen and (max-width: 768px) {
     
