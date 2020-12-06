@@ -1,3 +1,104 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* set font for all text on site */
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #eeeeee;
+}
+/* control capitalization from css instead of hard coding */
+h1{
+    text-transform: capitalize;
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+main{
+    background-color: #ffffff;
+}
+
+form{
+    width: 66.66%;
+}
+
+/* lots of whitespace for large screens */
+.container{    
+    padding: 25px 100px 25px 100px;
+}
+
+/* override 100% width cards - set to small inline blocks add soft box shadow */
 .card{
     display: inline-block;
+    width: 350px;
+    margin: 15px 15px 0 0;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.4);
+}
+
+/* float text around portrait */
+.portrait{
+    width: 250px;
+    float: left;
+    margin: 0 50px 15px 0;
+}
+
+/* add white space around p and between lines for readability */
+.intro-text{
+    padding: 0 50px;
+    line-height: 1.8;
+}
+
+/* clear floats and add margin below */
+.technologies{
+    clear: both;
+    margin: 15px 0 0 0;
+}
+/* medium screens */
+@media only screen and (max-width: 768px) {
+    
+    /* set width to 100% for usable space on smaller screens */
+    form{
+        width: 100%;
+    }
+
+    .container{
+        padding: 25px;
+    }
+
+
+}
+/* small screens */
+@media only screen and (max-width: 400px) {
+
+
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    /* remove excess white space for small screens */
+    .container{
+        width: 100%;
+        padding: 15px;
+    }
+
+    /* remove float and set to block for small screens */
+    .portrait{
+        float: none;
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+
+    /* remove excess white space for small screens */
+    .intro-text{
+        padding: 0 15px;
+    }
+
+    .technologies{
+        margin: 0;
+    }
 }
