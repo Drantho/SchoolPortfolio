@@ -1,5 +1,4 @@
 /* import google font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /* set font for all text on site */
@@ -22,6 +21,8 @@ main{
 
 article{
     display: inline;
+    margin: 0;
+    padding: 0;
 }
 
 form{
@@ -37,6 +38,20 @@ ul li{
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
+    margin: 6px 0;
+}
+a{
+    cursor: pointer;
+}
+
+/* add white space around portfolio lists */
+.modal-body .row .col-lg-6{
+    padding: 25px;
+}
+
+/* add white space around portfolio thumbnails */
+.portfolio-row{
+    max-width: 760px;
 }
 
 /* lots of whitespace for large screens */

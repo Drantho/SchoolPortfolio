@@ -57,381 +57,672 @@
     </header>
 
     <main class="container">
-        <div class="row">
+        <section class="row portfolio-row">
             <div class="col-md-12">
                 <h1>portfolio</h1>
                 <hr>
             </div>
-        </div>
-        <div class="row">
-            <section class="col-md-12">
-                <!-- actual projects -->
-                <article>
+        </section>
+
+        <!-- actual projects -->
+        <section class="row portfolio-row">
+            <article class="col-lg-6">
+
+                <div class="card">
+                    <a data-toggle="modal" data-target="#nobrainermealsModal">
+                        <img src="assets/images/nobrainermeals.png" class="card-img-top" alt="NoBrainerMeals.com"
+                            title="NoBrainerMeals.com">
+                    </a>
+
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="nobrainermealsModal" tabindex="-1"
+                    aria-labelledby="nobrainermealsModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="nobrainermealsModalLabel">No Brainer Meals</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/nobrainermeals.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Admin users can create recipes</li>
+                                            <li>Admin users can upload photos</li>
+                                            <li>Admin users can link suggested equipment</li>
+                                            <li>Users can create accounts</li>
+                                            <li>Recipes can have multiple ingredients sources with links, amounts, and prices</li>
+                                            <li>Users can view price per serving for each recipe</li>
+                                            <li>Users can view total cart price to purchase ingredients</li>
+                                            <li>Users can alter recipe yield, which alters purchase amounts</li>
+                                            <li>Users can view related recipes by similar ingredients</li>
+                                            <li>Users can search by ingredient, method, or style</li>
+                                            <li>Users can rate recipes</li>
+                                            <li>Users can leave comments</li>
+                                            <li>Users can follow links to buy directly online</li>                                            
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>Material Design</li>
+                                            <li>C#</li>
+                                            <li>.NET</li>
+                                            <li>MSSQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+            <article class="col-lg-6">
+                <a data-toggle="modal" data-target="#daylinToolModal">
+                    <div class="card">
+                        <img src="assets/images/daylintool.png" class="card-img-top" alt="Daylin's App"
+                            title="Daylin's App">
+                    </div>
+                </a>
+                <div class="modal fade" id="daylinToolModal" tabindex="-1" aria-labelledby="daylinToolModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="daylinToolModalLabel">Daylin's Repair Tracker App</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/daylintool.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Private protected app</li>
+                                            <li>Users can create departments</li>
+                                            <li>Users can create machine and add to department</li>
+                                            <li>Users can add repair notes and times to machines</li>
+                                            <li>Users can iupload photos of machines and repairs</li>
+                                            <li>Users can create custom recurring checklist items</li>
+                                            <li>Users can complete checklist items and leave notes</li>
+                                            <li>Users can add suppliers' information</li>
+                                            <li>Users can add parts information and link to machines and suppliers</li>
+                                            <li>Users can add shelf labels and add parts to shelves</li>
+                                            <li>Users can browse repairs by date or machine</li>
+                                            <li>Users can view printable repair time reports by month, department, and machine</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>Bootstrap</li>
+                                            <li>JQuery</li>
+                                            <li>.NET</li>
+                                            <li>C#</li>
+                                            <li>MSSQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+        </section>
+        <section class="row portfolio-row">
+
+            <article class="col-lg-6">
+                <a data-toggle="modal" data-target="#gameOfLifeModal">
 
                     <div class="card">
-                        <a data-toggle="modal" data-target="#nobrainermealsModal">
-                            <img src="assets/images/nobrainermeals.png" class="card-img-top" alt="NoBrainerMeals.com"
-                                title="NoBrainerMeals.com">
-                        </a>
-
+                        <img src="assets/images/gameoflife.png" class="card-img-top" alt="Game of Life"
+                            title="Game of Life">
                     </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="nobrainermealsModal" tabindex="-1"
-                        aria-labelledby="nobrainermealsModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="nobrainermealsModalLabel">No Brainer Meals</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
+                </a>
+
+                <div class="modal fade" id="gameOfLifeModal" tabindex="-1" aria-labelledby="gameOfLifeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="daylinToolModalLabel">Game of Life</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/gameoflife.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Users can play the Game of Life!</li>
+                                            <li>Users can set starting options such as board size and starting density</li>
+                                            <li>Users can start with infinite repeating layout</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>JQuery</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/nobrainermeals.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                </article>
+            </article>
 
-                <article>
-                    <a data-toggle="modal" data-target="#daylinToolModal">
-                        <div class="card">
-                            <img src="assets/images/daylintool.png" class="card-img-top" alt="Daylin's App"
-                                title="Daylin's App">
-                        </div>
-                    </a>
-                    <div class="modal fade" id="daylinToolModal" tabindex="-1" aria-labelledby="daylinToolModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="daylinToolModalLabel">Daylin's Repair Tracker App</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
+            <article class="col-lg-6">
+                <a data-toggle="modal" data-target="#globalTemeratureModal">
+                    <div class="card">
+                        <img src="assets/images/globallandsurfacetemperature.png" class="card-img-top"
+                            alt="Global Land Surface Temperature History"
+                            title="Global Land Surface Temperature History">
+                    </div>
+                </a>
+
+                <div class="modal fade" id="globalTemeratureModal" tabindex="-1"
+                    aria-labelledby="globalTemeratureModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="globalTemeratureModalLabel">Global Land Surface
+                                    Temperature</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/globallandsurfacetemperature.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Users can see chart of global land surface average temp by month</li>
+                                            <li>Users can see specific month data</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>JQuery</li>
+                                            <li>D3</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/daylintool.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                </article>
+            </article>
+        </section>
+        <section class="row portfolio-row">
 
+            <article class="col-lg-6">
 
-                <article>
+                <a data-toggle="modal" data-target="#peninsulaRVModal">
+                    <div class="card">
+                        <img src="assets/images/peninsularv.png" class="card-img-top" alt="PeninsulaRV.com"
+                            title="PeninsulaRV.com">
+                    </div>
+                </a>
 
-                    <a data-toggle="modal" data-target="#gameOfLifeModal">
-
-                        <div class="card">
-                            <img src="assets/images/gameoflife.png" class="card-img-top" alt="Game of Life"
-                                title="Game of Life">
-                        </div>
-                    </a>
-
-                    <div class="modal fade" id="gameOfLifeModal" tabindex="-1" aria-labelledby="gameOfLifeModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="daylinToolModalLabel">Game of Life</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
+                <div class="modal fade" id="peninsulaRVModal" tabindex="-1" aria-labelledby="peninsulaRVModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="peninsulaRVModalLabel">Peninsula RV</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/peninsularv.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Visitors can view basic business information</li>
+                                            <li>Visitors can view inventory and photos</li>
+                                            <li>Users can add customer info</li>
+                                            <li>Users can add vehicle info</li>
+                                            <li>Users can upload photos</li>
+                                            <li>Users can add repair orders</li>
+                                            <li>Users can print receipts for work</li>
+                                            <li>Users can add consignment info and print contract</li>
+                                            <li>Users can add vehicle sale info and print contracts and forms</li>
+                                            <li>Users can track post-sale process through payoff, taxes, licensing, and viewing profit</li>
+                                            <li>Users can view monthly sales and tax reports</li>
+                                            <li>Users can generate salesman commission documents</li>
+                                            <li>Users can track customer leads and search inventory with ranked results</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>JQuery</li>
+                                            <li>Bootstrap</li>
+                                            <li>.NET</li>
+                                            <li>C#</li>
+                                            <li>MSSQL</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/gameoflife.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
-                </article>
+                </div>
+            </article>
+            <article class="col-lg-6">
+                <a data-toggle="modal" data-target="#stateContiguityModal">
+                    <div class="card">
+                        <img src="assets/images/statecontiguity.png" class="card-img-top"
+                            alt="State Border Contiguity Chart" title="State Border Contiguity Chart">
+                    </div>
+                </a>
 
-                <article>
-                    <a data-toggle="modal" data-target="#globalTemeratureModal">
-                        <div class="card">
-                            <img src="assets/images/globallandsurfacetemperature.png" class="card-img-top"
-                                alt="Global Land Surface Temperature History" title="Global Land Surface Temperature History">
-                        </div>
-                    </a>
-
-                    <div class="modal fade" id="globalTemeratureModal" tabindex="-1" aria-labelledby="globalTemeratureModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="globalTemeratureModalLabel">Global Land Surface Temperature</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
+                <div class="modal fade" id="stateContiguityModal" tabindex="-1"
+                    aria-labelledby="stateContiguityModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="stateContiguityModalLabel">State Contiguity</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/statecontiguity.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Users can view world state contiguity map</li>
+                                            <li>Users can click and drag stretchy border connections and rearrange chart</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>JQuery</li>
+                                            <li>D3</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/globallandsurfacetemperature.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
-
-                </article>
-
-                <article>
-                    <a data-toggle="modal" data-target="#peninsulaRVModal">
-                        <div class="card">
-                            <img src="assets/images/peninsularv.png" class="card-img-top" alt="PeninsulaRV.com"
-                                title="PeninsulaRV.com">
-                        </div>
-                    </a>
-
-                    <div class="modal fade" id="peninsulaRVModal" tabindex="-1" aria-labelledby="peninsulaRVModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="peninsulaRVModalLabel">Peninsula RV</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/peninsularv.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                
-                <article>
-                    <a data-toggle="modal" data-target="#stateContiguityModal">
-                        <div class="card">
-                            <img src="assets/images/statecontiguity.png" class="card-img-top"
-                                alt="State Border Contiguity Chart" title="State Border Contiguity Chart">
-                        </div>
-                    </a>
-
-                    <div class="modal fade" id="stateContiguityModal" tabindex="-1" aria-labelledby="stateContiguityModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="stateContiguityModalLabel">State Contiguity</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/statecontiguity.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                
-                <article>
-                    <a data-toggle="modal" data-target="#therapySoonModal">
-                        <div class="card">
-                            <img src="assets/images/therapysoon.png" class="card-img-top" alt="Therapysoon.com"
-                                title="Therapysoon.com">
-                        </div>
-                    </a>
-
-                    <div class="modal fade" id="therapySoonModal" tabindex="-1" aria-labelledby="therapySoonModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="therapySoonModalLabel">Therapy Soon</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/therapysoon.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                
-                <article>
-                    <a data-toggle="modal" data-target="#travahoyModal">
-                        <div class="card">
-                            <img src="assets/images/travahoy.png" class="card-img-top" alt="Travahoy.com" title="Travahoy.com">
-                        </div>
-                    </a>
-
-                    <div class="modal fade" id="travahoyModal" tabindex="-1" aria-labelledby="travahoyModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="travahoyModalLabel">Travahoy</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/travahoy.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                
-                <article>
-                    <a data-toggle="modal" data-target="#violinShopModal">
-                        <div class="card">
-                            <img src="assets/images/violinshop.png" class="card-img-top" alt="ViolinShopofPortAngeles.com"
-                                title="ViolinShopofPortAngeles.com">
-                        </div>
-                    </a>
-
-                    <div class="modal fade" id="violinShopModal" tabindex="-1" aria-labelledby="violinShopModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="violinShopModalLabel">Violin Shop of Port Angeles</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/violinshop.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                
-                <article>
-                    <a data-toggle="modal" data-target="#minterestModal">
-                        <div class="card">
-                            <img src="assets/images/minterest.png" class="card-img-top" alt="Minterest (Pinterest clone)"
-                                title="Minterest (Pinterest clone)">
-                        </div>
-                    </a>
-
-                    <div class="modal fade" id="minterestModal" tabindex="-1" aria-labelledby="minterestModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="minterestModalLabel">Minterest (Pinterest clone)</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/minterest.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-
-                <article>
-                    <a data-toggle="modal" data-target="#pollKatModal">
-                        <div class="card">
-                            <img src="assets/images/pollkat.png" class="card-img-top" alt="Pollkat custom shareable polls"
-                                title="Pollkat custom shareable polls">
-                        </div>
-                    </a>
-
-                    <div class="modal fade" id="pollKatModal" tabindex="-1" aria-labelledby="pollKatModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="pollKatModalLabel">Pollkat</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/pollkat.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                
-                <article>
-                    <a data-toggle="modal" data-target="#stockMarketModal">
-                        <div class="card">
-                            <img src="assets/images/stockmarket.png" class="card-img-top" alt="Chart the Stock Market"
-                                title="Chart the Stock Market">
-                        </div>
-                    </a>
-
-                    <div class="modal fade" id="stockMarketModal" tabindex="-1" aria-labelledby="stockMarketModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="stockMarketModalLabel">Chart the Stock Market</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="assets/images/stockmarket.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                
-
-
-            </section>
+                </div>
+            </article>
+        </section>
         </div>
-        </div>
+        <section class="row portfolio-row">
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-            crossorigin="anonymous"></script>
+            <article class="col-lg-6">
+                <a data-toggle="modal" data-target="#therapySoonModal">
+                    <div class="card">
+                        <img src="assets/images/therapysoon.png" class="card-img-top" alt="Therapysoon.com"
+                            title="Therapysoon.com">
+                    </div>
+                </a>
+
+                <div class="modal fade" id="therapySoonModal" tabindex="-1" aria-labelledby="therapySoonModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="therapySoonModalLabel">Therapy Soon</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/therapysoon.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Admin users can create custom professional therapist categories</li>
+                                            <li>Admin users can review and approve professional therapist applicants</li>
+                                            <li>Users can apply to put detailed listing on site</li>
+                                            <li>Users can pay for service with monthly online billing</li>
+                                            <li>Users can upload photos</li>
+                                            <li>Users can set availability</li>
+                                            <li>Visitors can search for therapists by custom criteria</li>
+                                            <li>Visitors can see lists of users ranked by relevant searches</li>
+                                            <li>Visitors can search by distance from desired location</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>JQuery</li>
+                                            <li>Material Design</li>
+                                            <li>.NET</li>
+                                            <li>C#</li>
+                                            <li>MSSQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-lg-6">
+                <a data-toggle="modal" data-target="#travahoyModal">
+                    <div class="card">
+                        <img src="assets/images/travahoy.png" class="card-img-top" alt="Travahoy.com"
+                            title="Travahoy.com">
+                    </div>
+                </a>
+
+                <div class="modal fade" id="travahoyModal" tabindex="-1" aria-labelledby="travahoyModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="travahoyModalLabel">Travahoy</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/travahoy.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Users can add, sort, and link to inventory</li>
+                                            <li>Users can upload photos</li>
+                                            <li>Visitors can browse inventory and follow links to 3rd party websites to purchase</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>JQuery</li>
+                                            <li>.NET</li>
+                                            <li>C#</li>
+                                            <li>MSSQL</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="row portfolio-row">
+
+            <article class="col-lg-6">
+                <a data-toggle="modal" data-target="#violinShopModal">
+                    <div class="card">
+                        <img src="assets/images/violinshop.png" class="card-img-top" alt="ViolinShopofPortAngeles.com"
+                            title="ViolinShopofPortAngeles.com">
+                    </div>
+                </a>
+
+                <div class="modal fade" id="violinShopModal" tabindex="-1" aria-labelledby="violinShopModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="violinShopModalLabel">Violin Shop of Port Angeles</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/violinshop.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Visitors can view professional services</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-lg-6">
+                <a data-toggle="modal" data-target="#minterestModal">
+                    <div class="card">
+                        <img src="assets/images/minterest.png" class="card-img-top" alt="Minterest (Pinterest clone)"
+                            title="Minterest (Pinterest clone)">
+                    </div>
+                </a>
+
+                <div class="modal fade" id="minterestModal" tabindex="-1" aria-labelledby="minterestModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="minterestModalLabel">Minterest (Pinterest clone)</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/minterest.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Pinterest clone</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>JQuery</li>
+                                            <li>Mongo</li>
+                                            <li>Express</li>
+                                            <li>React</li>
+                                            <li>Node</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="row portfolio-row">
+            <article class="col-lg-6">
+                <a data-toggle="modal" data-target="#pollKatModal">
+                    <div class="card">
+                        <img src="assets/images/pollkat.png" class="card-img-top" alt="Pollkat custom shareable polls"
+                            title="Pollkat custom shareable polls">
+                    </div>
+                </a>
+
+                <div class="modal fade" id="pollKatModal" tabindex="-1" aria-labelledby="pollKatModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="pollKatModalLabel">Pollkat</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/pollkat.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Users can create custom polls</li>
+                                            <li>Users can add responses to polls</li>
+                                            <li>Users can respond to polls</li>
+                                            <li>Users can tweet polls</li>
+                                            <li>Users can view chart of poll responses</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>Mongo</li>
+                                            <li>Express</li>
+                                            <li>Node</li>
+                                            <li>Handlebars</li>                                            
+                                            <li>Material Design</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="col-lg-6">
+                <a data-toggle="modal" data-target="#stockMarketModal">
+                    <div class="card">
+                        <img src="assets/images/stockmarket.png" class="card-img-top" alt="Chart the Stock Market"
+                            title="Chart the Stock Market">
+                    </div>
+                </a>
+
+                <div class="modal fade" id="stockMarketModal" tabindex="-1" aria-labelledby="stockMarketModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="stockMarketModalLabel">Chart the Stock Market</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="assets/images/stockmarket.png" class="img-fluid" alt="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h3>Features</h3>
+                                        <ul>
+                                            <li>Users can add multiple stock symbols</li>
+                                            <li>Users can view stock history chart</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h3>Technologies</h3>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                            <li>JQuery</li>
+                                            <li>D3</li>                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
