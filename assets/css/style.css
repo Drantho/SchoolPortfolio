@@ -20,6 +20,10 @@ main{
     background-color: #ffffff;
 }
 
+article{
+    display: inline;
+}
+
 form{
     width: 66.66%;
 }
