@@ -1,6 +1,9 @@
-# UWBootcampHomework02
+# Portfolio for Anthony Mitchell
 
-Homework #02 for UW Bootcamp
+
+## Contact
+contact me at mitchellanthonyd@gmail.com
+-------------------------------------------------------------------------------------------------------------------
 
 Special thanks to Eduardo Russo and http://faviconit.com/en for generating favicon files!
 
