@@ -23,6 +23,7 @@ article{
     display: inline;
     margin: 0;
     padding: 0;
+    word-wrap:break-word;
 }
 
 form{
