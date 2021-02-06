@@ -1,15 +1,85 @@
-# Portfolio for Anthony Mitchell
+# Portfolio 
 
-------------------------------------------------------------------------------------------------------------------
-## Contact
-contact me at mitchellanthonyd@gmail.com
--------------------------------------------------------------------------------------------------------------------
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## My Projects
-Links are provided to view some live projects and some code repos. Many are private but you may contact me if you are interested in learning more.
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Known Issues](#known-issues)
+  - [Future Development](#future-development)
+  - [Questions](#questions)
+  - [License](#license)
+  ## Description
 
--------------------------------------------------------------------------------------------------------------------
+  This is my portfolio. Browse my projects, see technologies I use, and view my contact info.
 
+  ### View live: https://drantho.github.io/Portfolio/
+  ### Github: https://github.com/Drantho/Portfolio/
 
-Special thanks to Eduardo Russo and http://faviconit.com/en for generating favicon files!
--------------------------------------------------------------------------------------------------------------------
+  -------------------------------------------------------------------------------
+
+  ## Installation 
+
+  
+
+  none
+
+  -------------------------------------------------------------------------------
+
+  ## Usage 
+
+  
+
+  Follow the links! 
+
+  -------------------------------------------------------------------------------
+
+  ## Contributing 
+
+  
+
+  Anthony Mitchell
+
+  -------------------------------------------------------------------------------
+
+  ## Tests 
+
+  none 
+
+  -------------------------------------------------------------------------------
+
+  ## Known Issues 
+
+  - none 
+
+  -------------------------------------------------------------------------------
+
+  ## Future Development 
+
+  -  
+
+  -------------------------------------------------------------------------------
+
+  ## Questions
+  Me on github: https://github.com/Drantho 
+
+  Email me at mitchellanthonyd@gmail.com with any questions. 
+
+  -------------------------------------------------------------------------------
+
+  
+  ## License 
+ 
+The MIT License 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+
+  
+  ------------------------------------------------------------------------------
+
+   readme automatically created with Readme Generator 
+
+   view on github: https://github.com/Drantho/ReadmeGenerator
